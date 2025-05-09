@@ -1,5 +1,26 @@
-# AzureGlobal2025
-Materials for workshop that happend 08.05.2025 in Krakow under Global Azure 2025 by Dominik Skowron & Damian Maczuga
+# Azure Global 2025 Krakow Workshop
+Materials for workshop that happend 08.05.2025 in Krakow under Global Azure 2025 by [Dominik Skowron](https://www.linkedin.com/in/dominikskowron007/) & [Damian Maczuga](https://www.linkedin.com/in/damianmaczuga/)
+
+![logo](./logo.png)
+Participants learned how to set up a fully automated, secure CI/CD pipeline for deploying a Flask web application to Azure using **GitHub Actions** and **passwordless authentication via Federated Identity**.
+
+## Key Topics Covered
+- Creating and configuring a GitHub repository
+- Setting up Azure resources:
+  - User Assigned Managed Identity
+  - Azure Blob Storage for Terraform state
+  - Azure Container Registry (ACR)
+  - App Service and Service Plan (from terraform)
+- Configuring GitHub Secrets for secure integration
+- Writing and deploying:
+  - `Dockerfile`
+  - `app.py` (Flask application)
+  - `main.tf` (Terraform configuration)
+  - GitHub Actions workflow (`deploy.yml`)
+- **Passwordless authentication using OIDC federation** between GitHub and Azure
+- Secure infrastructure and app deployment using Infrastructure as Code (IaC)
+
+This workshop showcased best practices for modern DevOps workflows with **Terraform**, **containerization**, and **secure CI/CD pipelines** on Azure.
 
 # Instruction
 ## 1. Create Free GitHub Account
