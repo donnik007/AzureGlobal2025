@@ -219,8 +219,8 @@ jobs:
       - name: Update App Service
         run: |
           az webapp config container set \
-            --name example-webapp-123123i95u8fhwfdsewdwsa \ #change here
-            --resource-group example-resources \ #change here
+            --name example-webapp-123123i95u8fhwfdsewdwsa \
+            --resource-group example-resources \
             --docker-custom-image-name ${{ secrets.ACR_LOGIN_SERVER }}/example-webapp:latest \
-            --docker-registry-server-url https://${{ secrets.ACR_LOGIN_SERVER }} \
+            --docker-registry-server-url https://${{ secrets.ACR_LOGIN_SERVER }}
 ```
