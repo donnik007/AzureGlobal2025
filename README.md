@@ -1,4 +1,5 @@
 # AzureGlobal2025
+Materials for workshop that happend 08.05.2025 in Krakow under Global Azure 2025.
 
 # Instruction
 ## 1. Create Free GitHub Account
